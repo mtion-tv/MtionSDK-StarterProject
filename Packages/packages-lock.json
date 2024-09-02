@@ -12,7 +12,7 @@
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "06d9497423522037fb6dc24ae848d9fa358c1e2c"
+      "hash": "a2028e58bfd3aa6052734f5fc4d9dcbf2ef5eff6"
     },
     "com.unity.addressables": {
       "version": "1.19.19",
