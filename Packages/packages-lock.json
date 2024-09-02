@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.mtion.sdk": {
-      "version": "https://github.com/mtion-tv/MtionSDK.git#dev/v0.15.2",
+      "version": "https://github.com/mtion-tv/MtionSDK.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -12,7 +12,7 @@
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "dc39b6ae501b8602f226ef01ba930c63113e3f9a"
+      "hash": "06d9497423522037fb6dc24ae848d9fa358c1e2c"
     },
     "com.unity.addressables": {
       "version": "1.19.19",

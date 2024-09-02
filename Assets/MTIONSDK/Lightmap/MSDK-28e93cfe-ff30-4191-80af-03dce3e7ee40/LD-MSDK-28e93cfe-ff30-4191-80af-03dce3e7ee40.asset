@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1801760946, guid: 68722d7041f60f04283b135c473d5d2a, type: 3}
+  m_Name: LD-MSDK-28e93cfe-ff30-4191-80af-03dce3e7ee40
+  m_EditorClassIdentifier: 
+  assetGUID: MSDK-28e93cfe-ff30-4191-80af-03dce3e7ee40
+  dataPrefix: ExampleRoomScene_Environment
+  dataName: MSDK-28e93cfe-ff30-4191-80af-03dce3e7ee40
+  startValue: 0
+  sceneLightingData:
+    lightmapName: MSDK-28e93cfe-ff30-4191-80af-03dce3e7ee40
+    rendererDatas:
+    - objectId: MSDK-a7614170492449d789c1da03bfacefbf
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -2.5226846, y: 0.38589072, z: -0.9303308}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-d507935971ee4fd0a004d8283f465638
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -2.526588, y: 0.81555796, z: -1.4696302}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-138a3d72ea774fc784836714aaf36013
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -0.36, y: 2.5761657, z: 0.69}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-40c8db55e54d492e90be979c96d714be
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -2.524207, y: 2.0471437, z: -1.9942527}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-b263c920b9da44ad849f168eb4e749e6
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -1.4651861, y: 3.2390435, z: -0.94089895}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-519154b7a1e148c6bad544094e06dfaf
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -2.688208, y: 1.3177693, z: -1.3344283}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-f142ae5779de426083452f471ed2f17e
+      lightmapIndex: -1
+      rotation: {x: -0.00000013767878, y: 0.7071068, z: 0.7071067, w: 0.00000013767875}
+      position: {x: -3.57417, y: 3.2390432, z: -0.93456537}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-0c402f9a0ed843e097a7c013d4af436b
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -1.4651861, y: 0.3830552, z: -0.9408987}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-ac82be2cea334f35bfcc5e921286cfe1
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -2.524207, y: 2.2353075, z: -1.469631}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-cc0198f5ccd2480dbb8ad03f8250328c
+      lightmapIndex: -1
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+      position: {x: -0.36, y: 2.5750148, z: 0.7211026}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-2f3f270ffade4b469192d727901d2fb7
+      lightmapIndex: -1
+      rotation: {x: -0.6621309, y: -0.24815862, z: 0.24815866, w: 0.6621308}
+      position: {x: -1.2750013, y: 1.0500257, z: -1.4833503}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    - objectId: MSDK-8147aa8fb92f413aae072a7b2936be45
+      lightmapIndex: -1
+      rotation: {x: -0.00000013767878, y: 0.7071068, z: 0.7071067, w: 0.00000013767875}
+      position: {x: -3.57417, y: 0.3830551, z: -0.9345651}
+      lightmapScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+    lightmapsLight: []
+    lightmapsDirectional: []
+    lightmapsShadowmask: []
+    skyboxSettings:
+      materialType: 1
+      tintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      skyboxTexture: {fileID: 8900000, guid: 1a48af681fbf945008f4954cc86a6c8c, type: 3}
+      cubmapTextures: []
+      panoramicTexture: {fileID: 0}
+      sunDisk: 0
+      sunSize: 0
+      sunSizeConvergence: 0
+      atmosphereThickness: 0
+      groundColor: {r: 0, g: 0, b: 0, a: 0}
+      exposure: 1
+    reflectionProbes:
+      name: []
+      cubeReflectionTexture: []
+    skyboxReflectionTexture:
+    - {fileID: 8900000, guid: a3620a3b4e2717e4f9782e1ca94bd993, type: 3}
+    lightProbes:
+      name: []
+      bakedProbes: []
+      lightProbes1D: []
+      initialLightProbesArrayPosition: 0
+    fogSettings:
+      enabled: 0
+      fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      fogDensity: 0.01
+      fogMode: 3
+      fogStartDistance: 0
+      fogEndDistance: 300
+    environmentSettings:
+      source: 0
+      ambientColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+      skyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+      equatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+      groundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+      intensityMultiplier: 1
+  removed: 0
+  lightingType: 0
