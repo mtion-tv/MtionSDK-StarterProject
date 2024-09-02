@@ -1,0 +1,360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &730461442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730461443}
+  - component: {fileID: 730461444}
+  m_Layer: 0
+  m_Name: Action_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &730461443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730461442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1195729184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &730461444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730461442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69417902816971f45976a814c17c5995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultChatCommand: 
+  Deprecated: 0
+  ActionName: Play Particles
+  ActionDescription: Scary ghosts!
+  ActionNodeType: 0
+  Active: 1
+  Guid: MSDK-a04c2bbd9dc948fbb9baeef908360dc5
+  ActionEntryPoints:
+  - Target: {fileID: 2131355607}
+    EntryPoint:
+      Guid: MSDK-cef97c5d11f94ad784db6c89851badf2
+      ParameterDefinitions: []
+  ActionExitPoints: []
+  ActionExitParameterProviders: []
+--- !u!1 &880211749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880211750}
+  - component: {fileID: 880211751}
+  m_Layer: 0
+  m_Name: Action_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &880211750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880211749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1195729184}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &880211751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880211749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69417902816971f45976a814c17c5995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultChatCommand: 
+  Deprecated: 0
+  ActionName: Stop Particles
+  ActionDescription: No more scary ghosts...
+  ActionNodeType: 0
+  Active: 1
+  Guid: MSDK-6e09276e2d684dd4b1610e81e1f33d6e
+  ActionEntryPoints:
+  - Target: {fileID: 2131355606}
+    EntryPoint:
+      Guid: MSDK-df71aab0cd834cf784de261d875234bf
+      ParameterDefinitions: []
+  ActionExitPoints: []
+  ActionExitParameterProviders: []
+--- !u!1 &1195729183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195729184}
+  - component: {fileID: 1195729185}
+  m_Layer: 0
+  m_Name: ActionBehaviourContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195729184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195729183}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 730461443}
+  - {fileID: 880211750}
+  m_Father: {fileID: 1543365877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1195729185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195729183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b16936e8fffb4549be1f6f968e39683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MActionMap:
+  - {fileID: 730461444}
+  - {fileID: 880211751}
+  Version: 2
+--- !u!1 &1543365876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543365877}
+  - component: {fileID: 1543365878}
+  m_Layer: 0
+  m_Name: MSDK-6e3d268d-add3-4552-ae62-b27df2f77234
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543365877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543365876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1195729184}
+  - {fileID: 208740194523211806}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1543365878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543365876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2274a7175453a045919e44e0e2e611d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoolCustomProperties:
+  - _guid: 27d9877bddaa4b82828bdb65461fef63
+    _gameObjectSiblingIndexPath: 01000000
+    _declaringTypeName: mtion.room.sdk.action.ParticlesCustomProperties, MTIONStudioSDK_Public_Core,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    _propertyName: Loop
+    _defaultValue: 0
+  - _guid: 768b21c25fb24403852a9b95c40eeded
+    _gameObjectSiblingIndexPath: 01000000
+    _declaringTypeName: mtion.room.sdk.action.ParticlesCustomProperties, MTIONStudioSDK_Public_Core,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    _propertyName: Play
+    _defaultValue: 0
+  IntCustomProperties: []
+  FloatCustomProperties: []
+  StringCustomProperties: []
+  ListIntCustomProperties: []
+  ListStringCustomProperties: []
+--- !u!1001 &2131355600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1543365877}
+    m_Modifications:
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 211097382059616084, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_Name
+      value: GhostParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806331758659713965, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a144169020d8f949851cbfe7e75447b, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+--- !u!198 &12287712975176046 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 12287714098751166, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+  m_PrefabInstance: {fileID: 2131355600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &208740194523211806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 208740193701662670, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+  m_PrefabInstance: {fileID: 2131355600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &211097381304025220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 211097382059616084, guid: d1819dac9818ae54587d3622d386e095, type: 3}
+  m_PrefabInstance: {fileID: 2131355600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2131355604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211097381304025220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727f1b7d261ce7840a3425166119a745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 12287712975176046}
+--- !u!114 &2131355605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211097381304025220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2a6411f2abffd43a50203588ed6f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleSystem: {fileID: 12287712975176046}
+--- !u!114 &2131355606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211097381304025220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3180855f188a411d9318958bb6032bea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleSystem: {fileID: 12287712975176046}
+--- !u!114 &2131355607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211097381304025220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48be849298ee4436bf5cc05deb07a5b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleSystem: {fileID: 12287712975176046}

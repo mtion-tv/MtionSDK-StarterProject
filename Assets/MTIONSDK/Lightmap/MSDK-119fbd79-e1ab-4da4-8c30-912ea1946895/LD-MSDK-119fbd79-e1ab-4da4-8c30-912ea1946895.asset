@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1801760946, guid: 68722d7041f60f04283b135c473d5d2a, type: 3}
+  m_Name: LD-MSDK-119fbd79-e1ab-4da4-8c30-912ea1946895
+  m_EditorClassIdentifier: 
+  assetGUID: MSDK-119fbd79-e1ab-4da4-8c30-912ea1946895
+  dataPrefix: ExampleRoomScene_Environment
+  dataName: MSDK-119fbd79-e1ab-4da4-8c30-912ea1946895
+  startValue: 0
+  sceneLightingData:
+    lightmapName: MSDK-119fbd79-e1ab-4da4-8c30-912ea1946895
+    rendererDatas: []
+    lightmapsLight: []
+    lightmapsDirectional: []
+    lightmapsShadowmask: []
+    skyboxSettings:
+      materialType: 4
+      tintColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      skyboxTexture: {fileID: 0}
+      cubmapTextures: []
+      panoramicTexture: {fileID: 0}
+      sunDisk: 1
+      sunSize: 0.04
+      sunSizeConvergence: 5
+      atmosphereThickness: 1
+      groundColor: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
+      exposure: 1.3
+    reflectionProbes:
+      name: []
+      cubeReflectionTexture: []
+    skyboxReflectionTexture:
+    - {fileID: 8900000, guid: 7b521b8852a03c04c826225688f45ff6, type: 3}
+    lightProbes:
+      name: []
+      bakedProbes: []
+      lightProbes1D: []
+      initialLightProbesArrayPosition: 0
+    fogSettings:
+      enabled: 0
+      fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      fogDensity: 0.01
+      fogMode: 3
+      fogStartDistance: 0
+      fogEndDistance: 300
+    environmentSettings:
+      source: 0
+      ambientColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+      skyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+      equatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+      groundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+      intensityMultiplier: 1
+  removed: 0
+  lightingType: 0
