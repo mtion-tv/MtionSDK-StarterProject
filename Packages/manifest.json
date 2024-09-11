@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.mtion.sdk": "https://github.com/mtion-tv/MtionSDK.git",
+    "com.mtion.sdk": "0.15.6",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.21",
@@ -42,5 +42,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.mtion.sdk"
+      ]
+    }
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.mtion.sdk": {
-      "version": "https://github.com/mtion-tv/MtionSDK.git",
+      "version": "0.15.6",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {
         "com.unity.addressables": "1.19.19",
         "com.unity.editorcoroutines": "1.0.0",
@@ -12,7 +12,7 @@
         "com.unity.modules.imageconversion": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "a2028e58bfd3aa6052734f5fc4d9dcbf2ef5eff6"
+      "url": "https://package.openupm.com"
     },
     "com.unity.addressables": {
       "version": "1.19.19",
