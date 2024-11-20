@@ -125,7 +125,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 --- !u!1 &254268794
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &254268795
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -160,7 +160,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &254268796
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -271,7 +271,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &547741954
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &547741955
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -298,14 +298,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01a98f930929e14da0c5f2bde05f24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InternalID: MSDK-829e03f7-a972-421a-b17f-feee4512880f
-  GUID: 829e03f7-a972-421a-b17f-feee4512880f
+  InternalID: MSDK-adc0dbf8-ce7e-427a-b4c0-b3ccc0a20667
+  GUID: adc0dbf8-ce7e-427a-b4c0-b3ccc0a20667
   ObjectType: 2
   Name: Chest (Animated)
   Description: A simple chest that opens and closes
-  AddressableID: Assets/MTIONSDK/Prefabs/MSDK-829e03f7-a972-421a-b17f-feee4512880f.prefab
+  AddressableID: Assets/MTIONSDK/Prefabs/MSDK-adc0dbf8-ce7e-427a-b4c0-b3ccc0a20667.prefab
   Version: 1
-  CreateTimeMS: 1725300838190
+  CreateTimeMS: 1732126956810
   UpdateTimeMS: 0
   ExportGLTFEnabled: 1
   ObjectReference: {fileID: 1414477949}
@@ -317,7 +317,7 @@ MonoBehaviour:
   LocationOption: 0
 --- !u!4 &547741956
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -389,6 +389,9 @@ MonoBehaviour:
       ParameterDefinitions: []
   ActionExitPoints: []
   ActionExitParameterProviders: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1145886553
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +450,9 @@ MonoBehaviour:
       ParameterDefinitions: []
   ActionExitPoints: []
   ActionExitParameterProviders: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1233073142
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +647,9 @@ MonoBehaviour:
       ParameterDefinitions: []
   ActionExitPoints: []
   ActionExitParameterProviders: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1000010291502788
 GameObject:
   m_ObjectHideFlags: 0
