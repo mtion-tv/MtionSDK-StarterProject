@@ -4,7 +4,7 @@ Get up and running quickly by downloading this project and learning the basics o
 
 ## Steps
 1. Download mtion studio form Steam: https://store.steampowered.com/app/1920720/mtion_studio/
-2. Download Unity (version 2021.3.25f1)
+2. Download Unity (version 6000.3.9f1)
 3. Download this repo or `git clone` the starter project to your PC.
 4. Open up Unity and start exploring!
 
